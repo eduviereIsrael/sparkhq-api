@@ -1,0 +1,37 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\tives\Documents\projects\node\sparkhq\.npmrc
+5 silly config:load:file:C:\Users\tives\.npmrc
+6 silly config:load:file:C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\etc\npmrc
+7 verbose title npm start
+8 verbose argv "start"
+9 verbose logfile logs-max:10 dir:C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-02T07_40_55_247Z-
+10 verbose logfile C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-02T07_40_55_247Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "start"
+12 verbose stack
+12 verbose stack Did you mean one of these?
+12 verbose stack   npm star # Mark your favorite packages
+12 verbose stack   npm stars # View packages marked as favorites
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at RunScript.run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:79:13)
+12 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+13 verbose cwd C:\Users\tives\Documents\projects\node\sparkhq
+14 verbose Windows_NT 10.0.22631
+15 verbose node v20.15.0
+16 verbose npm  v10.7.0
+17 error Missing script: "start"
+17 error
+17 error Did you mean one of these?
+17 error   npm star # Mark your favorite packages
+17 error   npm stars # View packages marked as favorites
+17 error
+17 error To see a list of scripts, run:
+17 error   npm run
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-02T07_40_55_247Z-debug-0.log
