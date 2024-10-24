@@ -1,0 +1,29 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.7.0
+2 info using node@v20.15.0
+3 silly config:load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config:load:file:C:\Users\tives\Documents\projects\node\sparkhq\.npmrc
+5 silly config:load:file:C:\Users\tives\.npmrc
+6 silly config:load:file:C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\etc\npmrc
+7 verbose title npm run dev
+8 verbose argv "run" "dev"
+9 verbose logfile logs-max:10 dir:C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-10T09_08_49_258Z-
+10 verbose logfile C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-10T09_08_49_258Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose stack Error: Missing script: "dev"
+12 verbose stack
+12 verbose stack To see a list of scripts, run:
+12 verbose stack   npm run
+12 verbose stack     at RunScript.run (C:\Program Files\nodejs\node_modules\npm\lib\commands\run-script.js:79:13)
+12 verbose stack     at async module.exports (C:\Program Files\nodejs\node_modules\npm\lib\cli\entry.js:74:5)
+13 verbose cwd C:\Users\tives\Documents\projects\node\sparkhq
+14 verbose Windows_NT 10.0.22631
+15 verbose node v20.15.0
+16 verbose npm  v10.7.0
+17 error Missing script: "dev"
+17 error
+17 error To see a list of scripts, run:
+17 error   npm run
+18 verbose exit 1
+19 verbose code 1
+20 error A complete log of this run can be found in: C:\Users\tives\Documents\projects\node\sparkhq\tivesmynameAppDataRoamingnpm-cache\_logs\2024-10-10T09_08_49_258Z-debug-0.log
