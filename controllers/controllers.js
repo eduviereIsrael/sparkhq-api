@@ -43,7 +43,7 @@ const SendGrid = {
                 });
            
         } catch(error){
-            console.error(error.body.errors)
+            console.error(error)
             res.status(400).json({
                 status: "failed",
                 message: "error while adding email to contacts"
