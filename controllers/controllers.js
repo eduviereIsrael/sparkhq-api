@@ -39,7 +39,7 @@ const SendGrid = {
                     })
                 })
                 .catch(error => {
-                    console.error(error.body.errors);
+                    console.error(error);
                 });
            
         } catch(error){
@@ -92,7 +92,7 @@ const SendGrid = {
                     });
                 })
                 .catch(error => {
-                    console.error(error.body.errors);
+                    console.error(error);
                     res.status(400).json({
                         status: "failed",
                         message: "Error sending email",
@@ -150,7 +150,7 @@ const SendGrid = {
                     });
                 })
                 .catch(error => {
-                    console.error(error.body.errors);
+                    console.error(error);
                     res.status(400).json({
                         status: "failed",
                         message: "Error sending email",
