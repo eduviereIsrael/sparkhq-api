@@ -11,12 +11,7 @@ const SendGrid = {
             const data = {
                 "contacts": [
                   {
-                    "email": req.body.email,
-                    "custom_fields": {
-                        "userId": req.body.userId,
-                        
-                    }
-                    
+                    "email": req.body.email
                   }
                 ]
             }
@@ -39,7 +34,7 @@ const SendGrid = {
                     })
                 })
                 .catch(error => {
-                    console.error(error);
+                    console.error(error.response.body.errors);
                 });
            
         } catch(error){

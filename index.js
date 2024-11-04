@@ -6,7 +6,7 @@ const app = express();
 // const admin = require('firebase-admin');
 // const serviceAccountKey = require("./sparkhq-db-firebase-adminsdk-5reln-7dd1226d5b.json");
 const SendGrid = require("./controllers/controllers")
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3001;
 
 const router = require("./routes/routes")
 
